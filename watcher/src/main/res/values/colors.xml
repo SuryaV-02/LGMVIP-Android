@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="scroll_bg">#AFAFAF</color>
+    <color name="tilebg">#ffffff</color>
+    <color name="tilebg_light">#ffffff</color>
+    <color name="app_bg">#EFEFEF</color>
+    <color name="text_color">#414141</color>
+    <color name="tile_text_color">#414141</color>
+    <color name="ripple_color">#EFEFEF</color>
+
+
+    <color name="confirmed_text_color">#3B1B9F</color>
+    <color name="active_text_color">#EC2424</color>
+    <color name="recovered_text_color">#1B5E20</color>
+    <color name="deceased_text_color">#0D47A1</color>
+
+    <color name="confirmed_tile_color">#7E57C2</color>
+    <color name="active_tile_color">#FF8A80</color>
+    <color name="recovered_tile_color">#66BB6A</color>
+    <color name="deceased_tile_color">#42A5F5</color>
+</resources>

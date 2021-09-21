@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Watcher</string>
+
+    <string name="who_card_txt">Follow these simple steps from World Health Organisation
+    to help reduce the risk of catching or spreading infections like the new coronavirus</string>
+
+    <string name="state_wise_statistics_card_txt">Analyse state wise active, recovered, affected and deceased
+    statistical data on covid 19</string>
+</resources>
