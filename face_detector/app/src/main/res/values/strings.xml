@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Face Checker</string>
+    <string name="welcome_message">"Upload a image to check whether it contains any face"</string>
+</resources>

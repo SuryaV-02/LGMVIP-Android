@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    android:id="@+id/ll_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        tools:visibility="gone">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lgm_main_logo"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:background="@color/app_bg"
+        android:visibility="gone"
+        tools:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="90dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Face Detector"
+                android:gravity="center"
+                android:textColor="@color/txt_color"
+                android:fontFamily="@font/roboto_thin"
+                android:textSize="40sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_message"
+                android:paddingHorizontal="20dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/txt_color"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_upload_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ripple_button_background"
+            android:gravity="center"
+            android:elevation="3dp"
+            android:layout_marginBottom="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:textColor="@color/button_txt_color"
+                />
+        </LinearLayout>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ibtn_upload_image"
+            android:clickable="true"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            android:layout_marginBottom="40dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/border_outline_color"
+            app:civ_shadow="false"
+            />
+
+        <Button
+            android:id="@+id/btn_check_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detect Face"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/button_txt_color"
+            android:background="@drawable/item_button_bg"
+            />
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/txt_color"
+            android:maxLines="1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/money_heist_royal_mint"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
